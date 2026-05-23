@@ -1,0 +1,30 @@
+{
+  "name": "smart-link-organizer",
+  "version": "1.0.0",
+  "description": "A web-based link management platform to save, organize, and access important links",
+  "main": "Backend/server.js",
+  "scripts": {
+    "start": "node Backend/server.js",
+    "dev": "nodemon Backend/server.js"
+  },
+  "keywords": [
+    "link-manager",
+    "bookmark",
+    "organizer",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "natural": "^6.10.0",
+    "stopwords": "^0.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
